@@ -13,7 +13,7 @@ group(:guard) do
 end
 
 group(:test) do
-  gem 'rspec',      '~> 2.8.0'
+  gem 'rspec',      '~> 2.9.0'
   gem 'timecop',    '~> 0.3.0'
   gem 'tzinfo',     '~> 0.3.0'
   gem 'rack-test',  '~> 0.6.0'

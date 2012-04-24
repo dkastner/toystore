@@ -14,6 +14,7 @@ module Toy
       end
 
       model.attributes[name.to_s] = self
+      model.define_attribute_method name.to_sym
     end
 
     def from_store(value)
